@@ -1,0 +1,17 @@
+GET http://localhost:8000/users
+
+###
+GET http://localhost:8000/users/640b830332d921928dcc1078
+###
+
+POST http://localhost:8000/users
+
+{
+    "name":"Joel",
+    "user_name":"JOel",
+    "phone_number":"1234567890",
+    "email":"joel@gmail.com"
+}
+
+###
+DELETE http://localhost:8000/users/640bac11d01ec7ffd9ea363e
